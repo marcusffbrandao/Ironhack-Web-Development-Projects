@@ -1,0 +1,58 @@
+.navigation-container {
+  background-color: rgb(241, 209, 15);
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.navigation {
+  background-color: rgb(241, 209, 15) !important;
+  color: rgb(30, 30, 30);
+  width: 1600px;
+  max-width: 2000px;
+  padding: 0 10%;
+}
+
+.nav-links {
+  background-color: rgb(241, 209, 15);
+  color: rgb(30, 30, 30);
+}
+
+.nav-logo-voluntei {
+  height: 0px;
+  width: 0px;
+}
+
+.nav-logo {
+  height: 80px;
+  width: auto;
+}
+
+.navigation-buttons-icons {
+  border: none;
+  padding: 0px;
+}
+
+.navigation-icons {
+  height: 30px;
+  width: auto;
+}
+
+.nav-user-button,
+.nav-user-button:active,
+.nav-user-button:focus,
+.nav-user-button:hover {
+  border: none !important;
+  outline: none !important;
+  background-color: rgb(241, 209, 15) !important;
+  padding: 7.5px 4px 7.5px 8px;
+}
+
+.navbar-user-links,
+.navbar-user-links:active,
+.navbar-user-links:focus {
+  border: none !important;
+  outline: none !important;
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(30, 30, 30);
+}

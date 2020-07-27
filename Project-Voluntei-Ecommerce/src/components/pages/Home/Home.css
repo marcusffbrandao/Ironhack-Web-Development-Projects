@@ -1,0 +1,24 @@
+.home-loading {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-loading-spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-spinner {
+  height: 100px;
+  width: 100px;
+}
+
+.home-loading-h1 {
+  justify-content: center;
+  margin-top: 20px;
+  color: rgb(30, 30, 30);
+  font-family: 'Fredoka One';
+}

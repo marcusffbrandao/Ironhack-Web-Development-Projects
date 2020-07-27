@@ -1,0 +1,118 @@
+body {
+    background-size: cover;
+}
+
+header {
+   text-align: center;
+   margin-top: 10px; 
+   margin-bottom: 30px;
+
+   padding: 0%;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+
+}
+
+#divLeft {
+ color: white;
+
+}
+
+#divCenter {
+    color: white; 
+    padding-left: 0px;
+   }
+
+.blue {
+background-color: rgb(125, 178, 240);
+border: 1px solid black;
+}
+
+.white {
+background-color: white;
+border: 1px solid blue;
+}
+
+.red {
+background-color:red;
+border: 1px solid blue;
+}
+
+.black {
+background-color: black;
+border: 1px solid blue;
+}
+
+button {
+    color: black;
+    width: 70px;
+    height:70px;
+    padding:10px;
+    /* border: 2px, solid, white;
+    margin: none; */
+}
+
+.boats {
+    background-color: black;
+    width: 20px;
+    height:20px;
+    padding:10px;
+    /* text-align: center; */
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.displays {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#div-points {
+    padding: 0, 10px, 0, 10px;
+}
+
+#div-chances {
+    padding: 0, 10px, 0, 100px;
+}
+
+
+
+h2 {
+    padding-bottom: 0px, 30px, 30px, 100px;
+}
+
+#points {
+    margin-bottom: 100px;
+    background-color: black;
+    color: white;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 0, 20px, 0, 20px;
+}
+
+#chances {
+    margin-bottom: 100px;
+    background-color: black;
+    color: white;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 0, 20px, 0, 20px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+#howto {
+    padding-top: 100px;
+}
+
+

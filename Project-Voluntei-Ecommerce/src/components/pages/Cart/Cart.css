@@ -1,0 +1,125 @@
+.cart-page {
+  background-color: rgb(235, 246, 255);
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  padding: 60px 5px;
+}
+
+.cart-page-container {
+  max-width: 1400px;
+  background-color: rgb(235, 246, 255);
+}
+
+.cart-page-wrap {
+  background-color: rgb(235, 246, 255);
+  min-height: 800px;
+}
+
+.cart-title {
+  /* letter-spacing: 2px !important; */
+  text-align: center;
+  font-family: 'Fredoka One', 'Times New Roman', Times, serif;
+  padding-bottom: 20px;
+}
+
+.cart-title > h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.cartA-left {
+  border: none;
+  background-color: rgb(235, 246, 255);
+}
+
+.cartA-right {
+  max-width: 300px;
+  height: 370px;
+  width: 300px;
+  border-radius: 8px;
+  /* background-color: rgb(188, 188, 188); */
+  /* background-color: #ebebeb; */
+  background-color: rgb(255, 255, 255);
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.cartA-left-body {
+  padding: 0px !important;
+}
+
+.cartA-right-body {
+  padding: 0px 30px !important;
+  height: 300px !important;
+}
+
+.user-title,
+.cartA-right > h3,
+.cartB-right > h3 {
+  text-align: center !important;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.cartA-right > p {
+  margin: 0px 0px 20px 20px !important;
+}
+
+.cartA-right-container,
+.cartB-right-container {
+  display: flex !important;
+  justify-content: center !important;
+  background-color: rgb(235, 246, 255);
+}
+
+.cartA-right-link {
+  color: rgb(30, 30, 30);
+  text-decoration: underline;
+}
+
+.cartB {
+  padding-top: 60px;
+}
+
+.cartB-left {
+  border-radius: 8px;
+}
+
+.cartB-left-body {
+  padding-top: 10px !important;
+}
+
+.cartB-right {
+  background-color: rgb(255, 255, 255);
+  width: 320px !important;
+  height: 400px;
+  padding: 0px 10px 10px;
+  border-radius: 8px;
+  display: flex !important;
+  justify-content: center !important;
+  text-align: center;
+}
+
+.cartB-right > p {
+  margin-bottom: 20px !important;
+}
+
+.cartC-link-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: auto;
+}
+
+.cartC-link {
+  color: rgb(30, 30, 30);
+  text-decoration: underline;
+  padding-top: 10px !important;
+}
+
+.cartB-right-paypal {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  overflow-x: hidden;
+  font-size: 20px;
+}
+
+/* @font-face {
+  font-family: 'Fredoka One';
+  src: url('./fonts/FredokaOne-Regular.ttf'), format('truetype');
+} */
+
+/* ===================================MEDIA QUERY=========================================== */
+
+@media (max-width: 320px) {
+  .authentication-google-container-right,
+  .authentication-facebook-container-right {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .authentication-google-container-right > p,
+  .authentication-facebook-container-right > p {
+    font-size: 16px !important;
+    margin: 4px 0px 0px;
+  }
+}
+
+@media (max-width: 510px) {
+  html {
+    font-size: 20px !important;
+  }
+
+  .navigation {
+    padding: 5px 15px !important;
+  }
+  .navigation-buttons-icons {
+    padding-left: 2px !important;
+  }
+
+  .nav-logo-voluntei {
+    height: 60px !important;
+    width: auto !important;
+  }
+
+  .nav-logo {
+    height: 0px !important;
+    width: 0px !important;
+    display: hidden !important;
+  }
+
+  .sectionA-cardDeck {
+    min-height: 0vh !important;
+  }
+
+  .cardA-left-body {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .cardA-left-text {
+    width: 310px;
+  }
+
+  .cardA-left-text > h1 {
+    font-size: 2rem !important;
+  }
+
+  .cardA-left-text > p {
+    font-size: 1rem !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .cardB-right-body {
+    padding: 25px 10px !important;
+  }
+
+  .cardB-right-text > h2 {
+    font-size: 1.2rem !important;
+  }
+
+  .cardB-right-text > p,
+  .sectionB-button {
+    font-size: 0.9rem !important;
+  }
+
+  .sectionC {
+    padding-bottom: 0px !important;
+  }
+
+  .sectionC > h3 {
+    font-size: 24px !important;
+  }
+
+  .sectionC-card-title {
+    font-size: 22px !important;
+  }
+
+  .sectionD-card-title > h4 {
+    font-size: 20px !important;
+  }
+
+  .sectionD {
+    padding-top: 50px !important;
+  }
+  .sectionD-cards-body {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
+  .footer-container {
+    padding: 30px 10px !important;
+    margin: 0px !important;
+  }
+
+  .footer-card {
+    min-width: 300px !important;
+  }
+
+  .footer-card-body {
+    padding: 0px 20px !important;
+  }
+
+  .footer-payments-container {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 560px) {
+  .cartA-right-container,
+  .cartB-right-container {
+    display: flex !important;
+    justify-content: center !important;
+    background-color: rgb(235, 246, 255);
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .sectionA-cardDeck {
+    min-height: 0vh !important;
+    padding: 0px 30px 30px;
+  }
+
+  .cardA-left-text {
+    max-width: 300px !important;
+  }
+
+  .cardA-left-text > h1 {
+    font-size: 1.9rem !important;
+  }
+
+  .cardA-left-text > p {
+    font-size: 0.9rem !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .cardB-right-body {
+    padding: 25px 10px !important;
+  }
+
+  .cardB-right-text > h2 {
+    font-size: 1.2rem !important;
+  }
+
+  .cardB-right-text > p,
+  .sectionB-button {
+    font-size: 0.9rem !important;
+  }
+
+  .sectionC > h3 {
+    font-size: 24px !important;
+  }
+
+  .sectionC-card-title {
+    font-size: 22px !important;
+  }
+
+  .sectionD-card-title > h4 {
+    font-size: 20px !important;
+  }
+
+  .sectionD-cards-body {
+    padding: 25px 10px 0px !important;
+  }
+
+  .footer-card {
+    min-width: 280px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .sectionA-cardDeck {
+    min-height: 0vh !important;
+    padding: 0px 30px 30px;
+  }
+
+  .cardA-left-text > h1 {
+    font-size: 2.8rem !important;
+  }
+
+  .cardA-left-text > p {
+    font-size: 1.4rem !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .cardB-right-text > h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .cardB-right-text > p,
+  .sectionB-button {
+    font-size: 20px !important;
+  }
+
+  .sectionD-card-title > h4 {
+    font-size: 1.3rem !important;
+  }
+}
+
+.home-loading {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-loading-spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-spinner {
+  height: 100px;
+  width: 100px;
+}
+
+.home-loading-h1 {
+  justify-content: center;
+  margin-top: 20px;
+  color: rgb(30, 30, 30);
+  font-family: 'Fredoka One';
+}

@@ -1,0 +1,40 @@
+.sectionD {
+  padding: 30px 20px 20px;
+  background-color: rgb(241, 209, 15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionD-CardDeck {
+  max-width: 1100px;
+}
+
+.sectionD-cards {
+  border: none;
+  background-color: rgb(241, 209, 15);
+}
+
+.sectionD-input {
+  border: 0.5px solid rgb(30, 30, 30);
+  border-radius: 0px;
+}
+.sectionD-button {
+  border: 0.5px solid rgb(30, 30, 30);
+  background-color: rgb(30, 30, 30);
+  color: rgb(255, 255, 255);
+  border-radius: 0px;
+}
+
+.sectionD-button:active,
+.sectionD-button:active,
+.sectionD-button:focus,
+.sectionD-button:focus,
+.sectionD-button:hover,
+.sectionD-button:hover {
+  border: 0.5px solid rgb(30, 30, 30) !important;
+  background-color: rgb(30, 30, 30) !important;
+  color: rgb(255, 255, 255) !important;
+  border-radius: 0px !important;
+  outline: none !important;
+}

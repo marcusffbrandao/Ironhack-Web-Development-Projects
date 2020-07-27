@@ -1,0 +1,120 @@
+<nav>
+  <div class="nav-left">
+    <h2><a href="/">Voluntouring</a></h2>
+  </div>
+  <div class="nav-right"></div>
+</nav>
+
+
+<main class="content-container">
+  <h2>Signup as a guide</h2>
+
+  <form action="/auth/guide-signup" method="POST" enctype="multipart/form-data">
+    <input type="hidden" name="role" value="guide">
+    <div class="search-where">
+      <label class="search-form-fields mt2" for="where">FULL NAME</label>
+      <input class="where-input search-form-text-input" type="text" id="Where" name="name" />
+    </div>
+    <div class="search-where">
+      <label class="search-form-fields mt2" for="where">USERNAME</label>
+      <input class="where-input search-form-text-input" type="text" id="Where" name="username" />
+    </div>
+    <div class="search-date">
+      <label class="search-form-fields mt2" for="from">BIRTH DATE</label>
+      <input type="date" id="birth" class="search-form-text-input" name="birthDate" />
+    </div>
+    <div class="search-where">
+      <label class="search-form-fields mt2" for="where">PHONE</label>
+      <input class="where-input search-form-text-input" type="text" id="phone" name="phone" />
+    </div>
+    <div class="search-where">
+      <label class="search-form-fields mt2" for="where">E-MAIL</label>
+      <input class="where-input search-form-text-input" type="text" id="e-mail" name="email" />
+    </div>
+<label class="search-form-fields mt2" for="languages">LANGUAGES</label>    
+    <form action="/">
+      <div class="categories-checkbox">
+        <input id="languages-arabic" type="checkbox" name="languages" value="Arabic"><label for="languages-arabic">
+          Arabic</label>
+      </div>
+      <div class="categories-checkbox">
+        <input id="languages-dutch" type="checkbox" name="languages" value="Dutch"><label for="languages-dutch">
+          Dutch</label>
+      </div>
+      <div class="categories-checkbox">
+        <input id="languages-english" type="checkbox" name="languages" value="English"><label for="languages-english">
+          English</label>
+      </div>
+      <div class="categories-checkbox">
+        <input id="languages-french" type="checkbox" name="languages" value="French"><label for="languages-french">
+          French</label>
+      </div>
+      <div class="categories-checkbox">
+        <input id="languages-german" type="checkbox" name="languages" value="German"><label for="languages-german">
+          German</label>
+      </div>
+      <div class="categories-checkbox">
+        <input id="languages-greek" type="checkbox" name="languages" value="Greek"><label for="languages-greek">
+          Greek</label>
+      </div>
+      <div class="categories-checkbox">
+        <input id="languages-hindi" type="checkbox" name="languages" value="Hindi"><label for="languages-hindi">
+          Hindi</label>
+      </div>
+      <div class="categories-checkbox">
+        <input id="languages-italian" type="checkbox" name="languages" value="Italian"><label for="languages-italian">
+          Italian</label>
+      </div>
+      <div class="categories-checkbox">
+        <input id="languages-japanese" type="checkbox" name="languages" value="Japanese"><label
+          for="languages-japanese">
+          Japanese</label>
+      </div>
+      <div class="categories-checkbox">
+        <input id="languages-korean" type="checkbox" name="languages" value="Korean"><label for="languages-korean">
+          Korean</label>
+      </div>
+      <div class="categories-checkbox">
+        <input id="languages-mandarin" type="checkbox" name="languages" value="Mandarin"><label
+          for="languages-mandarin">
+          Mandarin</label>
+      </div>
+      <div class="categories-checkbox">
+        <input id="languages-portuguese" type="checkbox" name="languages" value="Portuguese"><label
+          for="languages-portuguese">
+          Portuguese</label>
+      </div>
+      <div class="categories-checkbox">
+        <input id="languages-russian" type="checkbox" name="languages" value="Russian"><label for="languages-russian">
+          Russian</label>
+      </div>
+      <div class="categories-checkbox">
+        <input id="languages-spanish" type="checkbox" name="languages" value="Spanish"><label for="languages-spanish">
+          Spanish</label>
+      </div>
+      <div class="categories-checkbox">
+        <input id="languages-turkish" type="checkbox" name="languages" value="Turkish"><label for="languages-turkish">
+          Turkish</label>
+      </div>
+      <div class="search-where">
+        <label class="search-form-fields mt2" for="about">ABOUT ME</label>
+        <p class="guide-about-me">
+          Use this field to talk more about yourself, your proficiency levels in the selected languages, your
+          profession, hobbies, the links of your social medias or any information you want to share about
+          yourself.
+        </p>
+        <textarea class="signup-guide-text-area" name="about"></textarea>
+      </div>
+
+      <div class="picture">
+        <label class="search-form-fields mt2" id="fileLabel" for="profile-picture">PROFILE PICTURE</label>
+        <input id="profile-picture" type="file" name="profileImg">
+      </div>
+
+      <div class="search-where">
+        <label class="search-form-fields mt2" for="password">PASSWORD</label>
+        <input class="where-input search-form-text-input" type="password" id="password" name="password" />
+      </div>
+      <button id="create-account-button" class="search-btn" href="#">Create account</button>
+    </form>
+</main>

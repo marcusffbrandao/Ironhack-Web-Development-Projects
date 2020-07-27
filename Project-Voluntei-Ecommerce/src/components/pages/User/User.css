@@ -1,0 +1,57 @@
+.user-page {
+  background-color: rgb(235, 246, 255);
+}
+
+.user-card-container {
+  background-color: rgb(235, 246, 255);
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+
+.user-title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.user-title {
+  margin: 20px 0px 30px;
+}
+
+.user-card {
+  margin: 40px 5px;
+  width: 800px;
+  border: 1px solid rgb(30, 30, 30);
+  border-radius: none;
+}
+
+.user-status {
+  font-size: 1.6rem;
+  /* text-transform: uppercase; */
+}
+
+.user-instructions {
+  font-size: 1.2rem;
+  /* padding-top: 10px;
+  margin-bottom: 4px; */
+}
+
+.user-button-save {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  width: 100%;
+  padding-left: 10px;
+  margin: 20px 0px;
+}
+
+.user-button-delete {
+  background-color: white;
+  color: rgb(30, 30, 30);
+  width: 100%;
+  padding-left: 10px;
+  margin: 20px 0px;
+}
+
+hr {
+  margin: 20px 0px;
+}

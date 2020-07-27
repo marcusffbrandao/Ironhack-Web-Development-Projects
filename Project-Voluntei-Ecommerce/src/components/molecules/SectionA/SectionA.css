@@ -1,0 +1,59 @@
+.sectionA {
+  background-color: rgb(241, 209, 15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionA-cardDeck {
+  max-width: 1200px;
+  min-height: 60vh;
+  padding-bottom: 30px;
+}
+
+.cardA-left {
+  background-color: rgb(241, 209, 15);
+  border: none;
+  font-family: 'Fredoka One', 'Times New Roman', Times, serif;
+  line-height: 1;
+}
+
+.cardA-left-body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.cardA-left-text {
+  max-width: 500px !important;
+}
+
+.cardA-left-title {
+  color: rgb(30, 30, 30);
+  padding: 0px 20px;
+}
+
+.cardA-left-text h1 {
+  color: rgb(30, 30, 30);
+  font-size: 3.5rem;
+  padding: 0px 20px;
+}
+
+.cardA-left-text p {
+  color: rgb(30, 30, 30);
+  font-size: 1.5rem;
+  padding: 0px 20px;
+}
+
+.cardA-right {
+  background-color: rgb(241, 209, 15);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardA-right > img {
+  height: auto;
+  width: 100%;
+}

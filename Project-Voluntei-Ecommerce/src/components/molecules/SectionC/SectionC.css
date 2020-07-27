@@ -1,0 +1,61 @@
+.sectionC {
+  padding: 40px 2%;
+  background-color: rgb(235, 246, 255);
+}
+
+.sectionC h3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.sectionC p {
+  font-size: 0.8rem;
+}
+
+.sectionC-CardDeck-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionC-CardDeck {
+  max-width: 1600px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+
+.sectionC-cards {
+  border: none;
+  min-width: 350px;
+  max-width: 350px;
+}
+
+.sectionC-cards a {
+  text-decoration: none;
+  color: black;
+}
+
+.sectionC-cards:hover {
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+.sectionC-card-body {
+  background-color: white;
+}
+
+.sectionC-card-price {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.sectionC-card-button {
+  background-color: rgb(30, 30, 30);
+  color: white;
+}

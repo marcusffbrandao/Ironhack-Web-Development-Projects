@@ -1,0 +1,97 @@
+.authentication-page {
+  background-color: rgb(235, 246, 255);
+  min-height: 60vh;
+}
+
+.authentication-container {
+  background-color: rgb(235, 246, 255);
+  display: flex;
+  justify-content: center;
+}
+
+.authentication-card {
+  margin: 40px 5px;
+  width: 600px;
+  border: 1px solid rgb(30, 30, 30);
+  border-radius: none;
+}
+
+.authentication-status {
+  font-size: 1.6rem;
+}
+
+.authentication-labels {
+  font-size: 0.9rem;
+  padding-top: 10px;
+  margin-bottom: 4px;
+}
+
+.authentication-buttons {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  width: 100%;
+  padding-left: 10px;
+  height: 44px;
+}
+
+.authentication-google {
+  background-color: rgb(66, 133, 244);
+  margin-top: 10px !important;
+  height: 44px;
+  margin: 30px 0px 0px !important;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.authentication-google,
+.authentication-google:active,
+.authentication-google:focus,
+.authentication-google:hover {
+  border: none !important;
+  outline: none !important;
+  background-color: rgb(66, 133, 244);
+}
+
+.authentication-facebook {
+  border: none !important;
+  outline: none !important;
+  background-color: rgb(58, 85, 159) !important;
+  height: 44px;
+  margin: 26px 0px 10px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.authentication-facebook,
+.authentication-facebook:active,
+.authentication-facebook:focus,
+.authentication-facebook:hover {
+  outline: none !important;
+  background-color: rgb(58, 85, 159) !important;
+}
+
+.authentication-google-container,
+.authentication-facebook-container {
+  display: flex;
+}
+
+.authentication-google-container-right,
+.authentication-facebook-container-right {
+  display: flex;
+  justify-content: center !important;
+  width: 100%;
+}
+
+.authentication-google-container > img,
+.authentication-facebook-container > img {
+  height: 30px;
+  width: auto;
+  border-radius: 0px;
+}
+
+hr {
+  margin: 40px 0px 20px !important;
+  /* border: 1px solid rgb(241, 209, 15); */
+  border: 0.5px solid rgb(30, 30, 30);
+}
+
